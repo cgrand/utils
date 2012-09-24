@@ -1,6 +1,6 @@
 (ns net.cgrand.xmacros
-  {:author "Christophe Grand"}
-  "Safely extensible macros.")
+  "Safely extensible macros."
+  {:author "Christophe Grand"})
 
 (defn add-operator!
  "Extends the macro for the operator identified by keyword using f as the
