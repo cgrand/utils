@@ -50,7 +50,7 @@
        ((operator-fn macrovar# ::catch-all) op# ~@args))))
 
 (defmacro expand-op 
-  "Lust be called inside a macro body. Expands the op."
+  "Must be called inside a macro body. Expands the op."
   [op & args]
   `(expand-macro-op (first ~'&form) ~op ~@args))
 
